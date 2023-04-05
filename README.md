@@ -98,10 +98,25 @@ client , nav envoie requete au serveur, requete http et renvoie au format souhai
 
 node js permet à une machine de se comporter comme un serveur avec response request 
 
-
 node est asynch, pour utiliser les méthodes de facon synch après fonction mettre sync
+url:
+http nom de domaine 
+url uniform 
+
+http protocol
+reuqete
+utilise deux obj
+request et response
+qui renvoie l' obj response, qui peut etree une instance de l'obj error
+
+ou instance de la classe error
+
+=
+
+communication
 
 
+objet natif console. par contre pas objet global, en dehors de js on ne peut pas l'ultiliser
 
 
 
