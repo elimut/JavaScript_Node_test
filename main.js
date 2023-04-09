@@ -1,3 +1,4 @@
+// Test affichage terminal avec nod main:
 // var prenom = "anneso";
 // console.log(prenom);
 
@@ -8,7 +9,8 @@
 // salutations("Eléanore");
 // salutations("Bahamut");
 
-// éxecution simplon:
+
+// Module, éxecution simplon:
 require("./simplon.js");
 // PS C:\Users\utilisateur\Desktop\GIT\Node.js> node main
 // [
@@ -16,7 +18,8 @@ require("./simplon.js");
 //   { nom: 'angelika', niveau: 5 },
 //   { nom: 'benoit', niveau: 3 }
 // ]
-// Simplon est devenu un module , en allant le chercher depuis l' ext on va chercher un module
+// Simplon est devenu un module, en allant le chercher depuis l' extérieur on va chercher un module
+
 
 // console.log(eleves);
 // si sorti de simplon, ne peut être utilisé ,inutilisable, code seulement accessible
@@ -25,7 +28,7 @@ require("./simplon.js");
 const toto = require('./simplon.js');
 console.log(toto);
 // récupération de l'export de simplon.js= destructuring
-// POURRA ËTRE MODIFI2 MAIS NE CHANGERA PAS LES DONN2ES DE BASE
+// pourra être modifié mais ne changera pas les données de basze
 // On peut exporter plusisuers modules, en js tout est objet
 
 // const {eleves, cours} = require('./simplon.js');

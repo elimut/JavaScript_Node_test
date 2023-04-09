@@ -8,11 +8,11 @@ var objet = {
         console.log(this.i, this);
     }
 };
-// ne console log rien car rien appelé
+// ne console log rien car rien appelé, la fonction doit être nommée.
 
 objet.b();
 // appel propriété b
-// function flechee ne sort pas du ctxt -> undefined
+// fonction fléchée ne sort pas du contexte -> undefined
 objet.c();
 //  voir img10
 // 10 { i: 10, b: [Function: b], c: [Function: c] }
@@ -34,6 +34,6 @@ var voiture = {
     carburant: "diesel"
 };
 console.log(voiture.annee);
-// annee de la voiture
+// année de la voiture
 // clef/valeur -> accès propriété objet nomobj suivi clef séparé par un point
 // pour y accèder de l'intérieur -> this
